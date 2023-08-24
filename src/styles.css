@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+p.heading{
+    font-family: 'Inter', sans-serif;
+}
+p.paragraph{
+    font-family: 'Sen', sans-serif;
+}
+button.contact{
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-family: 'Sen', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
