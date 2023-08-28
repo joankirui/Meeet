@@ -2,16 +2,157 @@
 @tailwind components;
 @tailwind utilities;
 
-p.heading{
+nav.navbar{
+    margin-bottom: 0px;
+    height: 45px;
+}
+div.wordings > p.heading{
     font-family: 'Inter', sans-serif;
+    margin-top: 60px;
+    margin-left: 135px;
+    letter-spacing: 3px;
+    font-size: 96px;
 }
 p.paragraph{
     font-family: 'Sen', sans-serif;
+    margin-left: 59px;
 }
 button.contact{
     padding: 12px 20px;
     border-radius: 4px;
     font-family: 'Sen', sans-serif;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 1000;
+    margin-left: 59px;
 }
+div.footer > p.wrap > img.twitter {
+    margin-top: 10px;
+}
+div.footer > p.wrap {
+    display: flex;
+    margin-left: 115px;
+}
+div.footer > p.wrap > span.p{
+    margin-top: 50px;
+    font-family: 'Sen', sans-serif;
+}
+span.avatar1{
+    float: left;
+    margin-top: -385px;
+}
+span.avatar2{
+    float: right;
+    margin-right: 90px;
+}
+span.avatar3{
+    float: right;
+    margin: 30px;
+}
+div.wordings > span.avatar4{
+    float: right;
+    margin-right: 90px;
+    margin-top: -230px;
+}
+div.wordings > span.avatar5{
+    float: right;
+    margin-right: 630px;
+    margin-top: -150px;
+}
+div.footer > p.wrap > span.avatar6{
+    margin-left: 650px;
+    margin-top: -140px;
+}
+
+/* Tablet view responsiveness */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    span.avatar1{
+        float: left;
+        margin-top: -405px;
+    }
+    span.avatar3{
+        float: right;
+        margin-top: 100px;
+    }
+    div.wordings > p.heading{
+        font-family: 'Inter', sans-serif;
+        margin-left: 35px;
+        margin-top: 150px;
+        font-size: 60px;
+        letter-spacing: 1px;
+    }
+    p.paragraph{
+        font-family: 'Sen', sans-serif;
+        margin-left: -45px;
+    }
+    button.contact{
+        padding: 12px 20px;
+        border-radius: 4px;
+        font-family: 'Sen', sans-serif;
+        font-size: 18px;
+        font-weight: 1000;
+        margin-left: -45px;
+    }
+    div.footer > p.wrap {
+        display: flex;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    div.footer > p.wrap > span.p{
+        margin-top: 35px;
+        font-family: 'Sen', sans-serif;
+    }
+    div.footer > p.wrap > img.twitter {
+        margin-top: -2px;
+    }
+    div.wordings > span.avatar5{
+        float: right;
+        margin-right: 270px;
+        margin-top: -160px;
+    }
+    div.footer > p.wrap > span.avatar6{
+        margin-left: 290px;
+        margin-top: -155px;
+    }
+    div.wordings > span.avatar4{
+        float: right;
+        margin-right: 90px;
+        margin-top: -240px;
+    }
+}
+
+/* Mobile view responsiveness */
+@media only screen and (max-width: 767.98px) {
+    span.avatar3{
+        display: none;
+    }
+    div.wordings{
+        margin-top: 190px;
+    }
+    div.wordings > p.heading{
+        font-family: 'Inter', sans-serif;
+        margin-left: 25px;
+        font-size: 40px;
+    }
+    div.wordings > p.paragraph{
+        font-family: 'Sen', sans-serif;
+        margin-left: -55px;
+    }
+    div.footer > p.wrap > span.avatar6{
+        display: none;
+    }
+    div.wordings > span.avatar4{
+        display: none;
+    }
+    button.contact{
+        margin-left: -55px;
+    }
+    div.footer > p.wrap > img.twitter {
+        margin-top: 35px;
+        margin-left: -95px;
+    }
+    div.wordings > span.avatar5{
+        margin-right: 220px;
+        margin-top: -50px;
+    }
+}
+
