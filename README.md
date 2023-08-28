@@ -8,7 +8,7 @@ Joan Kirui
 This is a landing page
 
 ## Live link
-To view site [click here](https://stirring-tiramisu-84d3db.netlify.app/)
+To view site [click here](https://tranquil-donut-2d85bc.netlify.app/)
 ## Technologies used
 HTML,CSS,Bootstrap,Tailwind CSS
 
