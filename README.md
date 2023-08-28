@@ -14,7 +14,7 @@ HTML,CSS,Bootstrap,Tailwind CSS
 
 ### Fonts Used
 
-https://fonts.google.com/specimen/Inter
+https://fonts.google.com/specimen/Inter<br>
 https://fonts.google.com/specimen/Sen
 
 
